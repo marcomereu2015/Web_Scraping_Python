@@ -1,0 +1,14 @@
+#web scraping with Python and Pandas in Jupyter Notebook
+#create a new project in Python 3
+
+#on the first cell type the following code
+import pandas as pd
+tables = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
+ 
+#on the second cell type tables[0] 
+tables[0]
+#and then run it to display the first table from the website
+
+#on the third cell type tables[1] 
+tables[1]
+#and then run it to display the second table from the website
